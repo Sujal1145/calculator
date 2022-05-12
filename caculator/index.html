@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 id="result">Calculator </h1>
+    <table border="1">
+        <tr><input type="number" placeholder="1st value" id="input1"></tr>
+        <tr><input type="number" placeholder="2nd value" id="input2"></tr>
+        <button style="background-color: pink;">AC</button>
+        <tr>
+            <td><button>1</button></td>
+            <td><button>2</button></td>
+            <td><button>3</button></td>
+            <td><button onclick="minus()">-</button></td>
+        </tr>
+        <tr>
+            <td><button>4</button></td>
+            <td><button>5</button></td>
+            <td><button>6</button></td>
+            <td><button onclick="add()">+</button></td>
+        </tr>
+        <tr>
+            <td><button>7</button></td>
+            <td><button>8</button></td>
+            <td><button>9</button></td>
+            <td><button onclick="devide()">/</button></td>
+        </tr>
+        <tr>
+            <td><button>.</button></td>
+            <td><button>0</button></td>
+            <td><button style="background-color: pink;">=</button></td>
+            <td><button onclick="multiply()">*</button></td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

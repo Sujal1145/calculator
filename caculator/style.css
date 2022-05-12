@@ -1,0 +1,11 @@
+button{
+    padding: 35px;
+    text-align: center;
+    background-color: lightblue;
+    color: blue;
+    size: 90px;
+}
+input{
+    width: 125px;
+    height: 80px;
+}
